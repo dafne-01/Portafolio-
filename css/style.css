@@ -1,0 +1,112 @@
+body {
+  font-family: 'Spartan', sans-serif;
+}
+
+ul.horizontal li {
+  display: block;
+  float: left;
+  padding: 0 150px;
+  font-family: 'Spartan', sans-serif;
+  background-color: white;
+  color: #EFB0A1;
+}
+
+.heroimage-container {
+  text-align: center;
+  color: #EFB0A1;
+  position: relative;
+}
+
+.heroimage {}
+
+.Aboutme {
+  background-color: #EFB0A1;
+  position: relative;
+  padding: 100px;
+}
+
+.services-container {
+  color: #EFB0A1;
+  background-color: white;
+  padding: 40px 40px;
+  text-align: center;
+}
+
+.myworks-container {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 12px 25px;
+  color: #EFB0A1;
+}
+
+.foto1 {
+  width: 250px;
+  height: 200px;
+  float: left;
+}
+
+.foto2 {
+  width: 350px;
+  height: 200px;
+  float: center;
+}
+
+.foto3 {
+  width: 250px;
+  height: 200px;
+  float: right;
+}
+
+.foto4 {
+  width: 250px;
+  height: 200px;
+  float: left;
+}
+
+.foto5 {
+  width: 350px;
+  height: 200px;
+  float: center;
+}
+
+.foto6 {
+  width: 250px;
+  height: 200px;
+  float: right;
+}
+
+.contact-container {
+  color: #EFB0A1;
+  font-family: "Spartan", sans-serif;
+}
+
+.forms {
+  color: #EFB0A1;
+}
+
+.btn {
+  background-color: #EFB0A1;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px 55px 10px 55px;
+  font-family: "Spartan", sans-serif;
+  text-align: left;
+}
+
+.bottom-container {
+  background-color: #EFB0A1;
+  color: white;
+  text-align: center;
+  padding: 35px 35px;
+}
+
+.logofooter {
+  width: 200px;
+  height: 150px;
+  float: left;
+}
+
+h6 {
+  color: white;
+}
