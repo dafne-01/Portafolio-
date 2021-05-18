@@ -2,27 +2,45 @@ body {
   font-family: 'Spartan', sans-serif;
 }
 
-ul.horizontal li {
-  display: block;
-  float: left;
-  padding: 0 150px;
-  font-family: 'Spartan', sans-serif;
-  background-color: white;
+header {
   color: #EFB0A1;
+  font-family: 'Spartan', sans-serif;
 }
 
-.heroimage-container {
-  text-align: center;
-  color: #EFB0A1;
+.logonavbar {
+  width: 50px;
+  height: 50px;
+}
+
+.hero-image {
+  background-image: url("../images/heroimage.jpg");
+  height: 800px;
+  background-position: center;
+  background-size: cover;
   position: relative;
 }
 
-.heroimage {}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #EFB0A1;
+}
 
 .Aboutme {
   background-color: #EFB0A1;
   position: relative;
-  padding: 100px;
+  padding: 10px;
+  color: white;
+  font-family: 'Spartan', sans-serif;
+}
+
+.col-6aboutme{
+  position: absolute;
+  top: 30%;
+  left: 50%;
 }
 
 .services-container {
@@ -30,46 +48,57 @@ ul.horizontal li {
   background-color: white;
   padding: 40px 40px;
   text-align: center;
+  align-items: center;
+}
+
+.icon1 {
+  width: 50px;
+  height: 50px;
+}
+
+.icon2 {
+  width: 50px;
+  height: 50px;
 }
 
 .myworks-container {
   background-color: #F1F1F1;
   text-align: center;
-  padding: 12px 25px;
+  padding: 50px;
   color: #EFB0A1;
 }
 
-.foto1 {
+.pic1 {
   width: 250px;
   height: 200px;
   float: left;
 }
 
-.foto2 {
+.pic2 {
   width: 350px;
   height: 200px;
   float: center;
 }
 
-.foto3 {
+.pic3 {
   width: 250px;
   height: 200px;
   float: right;
 }
 
-.foto4 {
+.pic4 {
   width: 250px;
   height: 200px;
   float: left;
 }
 
-.foto5 {
+.pic5 {
   width: 350px;
   height: 200px;
   float: center;
 }
 
-.foto6 {
+.pic6 {
   width: 250px;
   height: 200px;
   float: right;
@@ -78,6 +107,7 @@ ul.horizontal li {
 .contact-container {
   color: #EFB0A1;
   font-family: "Spartan", sans-serif;
+  padding: 30px 30px ;
 }
 
 .forms {
@@ -98,15 +128,28 @@ ul.horizontal li {
   background-color: #EFB0A1;
   color: white;
   text-align: center;
-  padding: 35px 35px;
+  padding: 45px 45px;
 }
 
 .logofooter {
-  width: 200px;
-  height: 150px;
+  width: 50px;
+  height: 50px;
   float: left;
 }
-
+.instagram {
+  width: 30px;
+  height: 30px;
+  float:right;
+}
+.facebook {
+  width: 30px;
+  height: 30px;
+ float:right;
+}
 h6 {
   color: white;
+}
+h5 {
+  color: white;
+  align: center;
 }
