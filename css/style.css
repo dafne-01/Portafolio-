@@ -2,14 +2,10 @@ body {
   font-family: 'Spartan', sans-serif;
 }
 
-header {
-  color: #EFB0A1;
-  font-family: 'Spartan', sans-serif;
-}
-
 .logonavbar {
   width: 50px;
   height: 50px;
+  margin-left: 50px;
 }
 
 .hero-image {
@@ -37,6 +33,10 @@ header {
   font-family: 'Spartan', sans-serif;
 }
 
+.dafnepng {
+  margin-left: 320px;
+}
+
 .col-6aboutme {
   position: absolute;
   top: 30%;
@@ -48,17 +48,24 @@ header {
   background-color: white;
   padding: 40px 40px;
   text-align: center;
-  align-items: center;
+  align-items: left;
 }
 
 .icon1 {
   width: 50px;
   height: 50px;
+  margin-left: 340px;
 }
 
 .icon2 {
   width: 50px;
   height: 50px;
+  margin-left: 340px;
+}
+
+.servicestitle {
+  margin-left: 315px;
+  text-align: center;
 }
 
 .myworks-container {
@@ -71,37 +78,41 @@ header {
 .pic1 {
   width: 250px;
   height: 200px;
-  float: left;
+  text-align: center;
+  margin-left: 350px;
 }
 
 .pic2 {
   width: 350px;
   height: 200px;
-  float: center;
+  text-align: center;
 }
 
 .pic3 {
   width: 250px;
   height: 200px;
-  float: right;
+  text-align: center;
+  margin-right: 350px;
 }
 
 .pic4 {
   width: 250px;
   height: 200px;
-  float: left;
+  text-align: center;
+  margin-left: 350px;
 }
 
 .pic5 {
   width: 350px;
   height: 200px;
-  float: center;
+  text-align: center;
 }
 
 .pic6 {
   width: 250px;
   height: 200px;
-  float: right;
+  text-align: center;
+  margin-right: 350px;
 }
 
 .contact-container {
@@ -109,8 +120,10 @@ header {
   font-family: "Spartan", sans-serif;
   padding: 30px 30px;
 }
-.contact{
-  text-align: center;
+
+.contact {
+  text-align: justify;
+  float: right;
 }
 
 .forms {
@@ -144,12 +157,14 @@ header {
   width: 30px;
   height: 30px;
   float: right;
+  padding: 10px top: 80%;
 }
 
 .facebook {
   width: 30px;
   height: 30px;
   float: right;
+  padding: 10px top: 80%;
 }
 
 h6 {
